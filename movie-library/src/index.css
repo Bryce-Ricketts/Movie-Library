@@ -1,0 +1,141 @@
+body{
+    font-family: "Gelasio";
+    margin: 0;
+}
+
+header{
+    font-family: "Special Elite";
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    background-color: rgb(252, 230, 183);
+}
+
+.page-header{
+    text-align: center;
+}
+
+.page-header h1{
+    margin-bottom: 0px;
+}
+
+#tag{
+    font-size: small;
+    font-weight: bold;
+}
+
+#search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#chosen-movie{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+#favourites{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#ind-fave{
+    font-family: "Special Elite";
+    border: solid grey 0.5px;
+    width: 256px;
+    border-radius: 8px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgb(237, 250, 250);
+}
+
+#summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-family: "Special Elite";
+}
+
+#year{
+    margin: 0px;
+    font-size: large;
+    font-family: "Gelasio";
+    font-weight: bold;
+}
+
+#rating{
+    margin: 5px;
+    margin-bottom: 32px;
+    font-size: medium;
+    font-family: "Gelasio";
+    font-weight: bold;
+}
+
+#summary-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#plot{
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#chosen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fave-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    width: 128px;
+    align-items: center;
+    text-align: center;
+    margin-top: 32px;
+}
+
+#back-button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+#header-link{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size:x-large;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+
+#header-fave{
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
